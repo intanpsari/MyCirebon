@@ -1,0 +1,182 @@
+/*=======================
+--------Header-----------
+========================*/
+
+header {
+    background-color: #fcc2d8;
+    text-align: center;
+    font-family: 'Taviraj', serif;
+    float: left;
+    margin: 0 0 0 0;
+    padding: 0px 0 0 0;
+    width: 100%;
+    margin-top: 0px;
+    border-bottom: 5px solid brown;
+}
+header a {
+    text-decoration: none;
+}
+/*=======================
+--------Navigation-----------
+========================*/
+
+nav li {
+    display: inline-block;
+    max-width: 18%;
+}
+
+nav a {
+    font-weight: 500;
+    padding: 10px 5px;
+}
+nav a.selected {
+    color: pink;
+}
+nav a:hover {
+    color: red;
+}
+nav {
+    background: none;
+    font-size: 1.125em;
+    padding-top: 2%;
+    text-align: center;
+}
+nav ul li a {
+    background-color: brown;
+    color: white;
+    border-radius: 10%;
+}
+/*=======================
+--------General-----------
+========================*/
+
+h1 {
+    margin-bottom: 0px;
+    font-size: 1.5em;
+}
+h2 {
+    margin-top: 0px;
+    font-size: 0.75em;
+    clear: left;
+}
+img {
+    max-width: 100%;
+}
+p {
+    text-align: center;
+}
+/*=====================
+--------Home---------
+======================*/
+
+#wrapper {
+    margin: 0px auto;
+    font-family: 'Love Ya Like A Sister', cursive;
+    padding-left: 7%;
+}
+#main {
+    margin: 0px auto;
+    margin-bottom: 3%;
+    background-color: #ffe6e6;
+}
+#main2 {
+    margin: 0px auto;
+    margin-bottom: 3%;
+}
+#gallery li:nth-child(2n+1) {
+    clear: left;
+}
+#gallery {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 100%;
+}
+#gallery li {
+    float: left;
+    width: 47%;
+    margin: 1%;
+    border-radius: 20%;
+}
+#gallery ul {
+    background-color: blue;
+}
+#gallery li a p {
+    margin: 0;
+    padding: 5%;
+    font-size: 1em;
+    color: red;
+}
+.kulinerhome {
+    border-radius: 20%;
+}
+.wisatahome {
+    border-radius: 10%;
+}
+/*=======================
+--------Footer-----------
+========================*/
+
+footer {
+    font-size: 1em;
+    text-align: center;
+    clear: both;
+    color: brown;
+    background-color: #fcc2d8;
+    border-top: 5px solid brown;
+    margin-top: 5%;
+}
+.logo {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+/*=====================
+--------wisata---------
+======================*/
+
+#foto {
+    margin: 0px auto;
+}
+#penjelasan {
+    margin: 0px auto;
+}
+/*=====================
+--------About---------
+======================*/
+/*=====================
+--------Contact---------
+======================*/
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+.contact-info a {
+    display: block;
+    min-height: 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    text-align: left;
+}
+.contact-info li.phone a {
+    background-image: url('../img/phone.png');
+    margin-left: 10%;
+}
+.contact-info li.mail a {
+    background-image: url('../img/mail.png');
+    margin-left: 10%;
+}
+.contact-info li.twitter a {
+    background-image: url('../img/twitter.png');
+    margin-left: 10%;
+}
+.contact-info li.facebook a {
+    background-image: url('../img/facebook.png');
+    margin-left: 10%;
+}

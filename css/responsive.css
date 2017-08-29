@@ -1,0 +1,120 @@
+@media (max-width: 480px) {
+    nav li a{
+        font-size: 0.5em;
+    }
+}
+@media (min-width: 480px and max-width:660)   {
+    nav li a{
+        font-size: 0.7em;
+    }
+}
+
+@media (min-width: 660px) {
+    /*=======================
+	--------About----------
+	========================*/
+    
+    #primary {
+        width: 40%;
+        float: left;
+        padding-left: 10%;
+        font-family: 'Love Ya Like A Sister', cursive;
+    }
+    #secondary {
+        width: 20%;
+        float: right;
+        font-family: 'Love Ya Like A Sister', cursive;
+        margin-right: 10%;
+    }
+    /*=======================
+	--------Header----------
+	========================*/
+    
+    .profil-photo {
+        display: block;
+        max-width: 20%;
+        float: left;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    #logo {
+        float: left;
+        margin-left: 5%;
+        text-align: left;
+        width: 20%;
+        color: brown;
+    }
+    #logo2 {
+        float: right;
+        margin-left: 5%;
+        text-align: left;
+        width: 20%;
+        color: brown;
+    }
+    nav {
+        background: none;
+        float: left;
+        font-size: 1.125em;
+        padding-top: 2%;
+        text-align: right;
+        width: 40%;
+    }
+    nav a {
+        font-weight: 800;
+        padding: 15px 10px;
+    }
+    nav {
+        text-align: right;
+    }
+    nav li a{
+        font-size: 0.7em;
+    }
+    /*=======================
+	--------General----------
+	========================*/
+    
+    h1 {
+        margin-bottom: 0px;
+        font-size: 2em;
+    }
+    h2 {
+        margin-top: 0px;
+        font-size: 1em;
+        clear: left;
+    }
+    p {
+        margin-bottom: 7%;
+        text-align: justify;
+    }
+    /*============================
+	-----Wisata/kuliner/berita-----
+	===============================*/
+    
+    #main {
+        margin: 0px auto;
+        width: 35%;
+        float: left;
+        margin-left: 3%;
+        background-color: #ffe6e6;
+    }
+    #main2 {
+        margin: 0px auto;
+        width: 20%;
+        float: left;
+        margin-left: 3%;
+    }
+    #foto {
+        margin: 0px auto;
+        width: 40%;
+        float: left;
+        padding-left: 7%;
+        padding-right: 7%;
+        margin-top: 3%;
+    }
+    #penjelasan {
+        margin: 0px auto;
+        width: 30%;
+        float: left;
+        padding-top: 3%;
+    }
+}
